@@ -134,9 +134,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\bg-education-library.jpg" />
-    <Content Include="Images\capita_lms_image2.jpg" />
-    <Content Include="Images\Untitled-1.png" />
+    <Content Include="images\bg-education-library.jpg" />
+    <Content Include="images\capita_lms_image2.jpg" />
+    <Content Include="images\Untitled-1.png" />
     <Content Include="LibraryModel1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>LibraryModel1.edmx</DependentUpon>
@@ -159,17 +159,17 @@
     <Content Include="LibraryModel1.edmx.diagram">
       <DependentUpon>LibraryModel1.edmx</DependentUpon>
     </Content>
-    <Content Include="Pages\about.aspx" />
-    <Content Include="Pages\changepassword.aspx" />
-    <Content Include="Pages\changepasswordsuccess.aspx" />
-    <Content Include="Pages\home.aspx" />
-    <Content Include="Pages\lists.aspx" />
-    <Content Include="Pages\login.aspx" />
-    <Content Include="Pages\members.aspx" />
-    <Content Include="Pages\register.aspx" />
-    <Content Include="Pages\reports.aspx" />
-    <Content Include="Pages\welcome.aspx" />
-    <Content Include="Styles\Bootstrap.scss" />
+    <Content Include="pages\about.aspx" />
+    <Content Include="pages\changepassword.aspx" />
+    <Content Include="pages\changepasswordsuccess.aspx" />
+    <Content Include="pages\home.aspx" />
+    <Content Include="pages\lists.aspx" />
+    <Content Include="pages\login.aspx" />
+    <Content Include="pages\members.aspx" />
+    <Content Include="pages\register.aspx" />
+    <Content Include="pages\reports.aspx" />
+    <Content Include="pages\welcome.aspx" />
+    <Content Include="styles\Bootstrap.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -178,12 +178,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\MyBanner.png" />
+    <Content Include="images\MyBanner.png" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Styles\login.css" />
-    <Content Include="Styles\register.css" />
-    <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="styles\login.css" />
+    <Content Include="styles\register.css" />
+    <Content Include="styles\StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -245,74 +245,74 @@
     <Compile Include="Order.cs">
       <DependentUpon>LibraryModel1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Pages\about.aspx.cs">
+    <Compile Include="pages\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\about.aspx.designer.cs">
+    <Compile Include="pages\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\changepassword.aspx.cs">
+    <Compile Include="pages\changepassword.aspx.cs">
       <DependentUpon>changepassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\changepassword.aspx.designer.cs">
+    <Compile Include="pages\changepassword.aspx.designer.cs">
       <DependentUpon>changepassword.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\changepasswordsuccess.aspx.cs">
+    <Compile Include="pages\changepasswordsuccess.aspx.cs">
       <DependentUpon>changepasswordsuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\changepasswordsuccess.aspx.designer.cs">
+    <Compile Include="pages\changepasswordsuccess.aspx.designer.cs">
       <DependentUpon>changepasswordsuccess.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\home.aspx.cs">
+    <Compile Include="pages\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\home.aspx.designer.cs">
+    <Compile Include="pages\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\lists.aspx.cs">
+    <Compile Include="pages\lists.aspx.cs">
       <DependentUpon>lists.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\lists.aspx.designer.cs">
+    <Compile Include="pages\lists.aspx.designer.cs">
       <DependentUpon>lists.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\login.aspx.cs">
+    <Compile Include="pages\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\login.aspx.designer.cs">
+    <Compile Include="pages\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\members.aspx.cs">
+    <Compile Include="pages\members.aspx.cs">
       <DependentUpon>members.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\members.aspx.designer.cs">
+    <Compile Include="pages\members.aspx.designer.cs">
       <DependentUpon>members.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\register.aspx.cs">
+    <Compile Include="pages\register.aspx.cs">
       <DependentUpon>register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\register.aspx.designer.cs">
+    <Compile Include="pages\register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\reports.aspx.cs">
+    <Compile Include="pages\reports.aspx.cs">
       <DependentUpon>reports.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\reports.aspx.designer.cs">
+    <Compile Include="pages\reports.aspx.designer.cs">
       <DependentUpon>reports.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\welcome.aspx.cs">
+    <Compile Include="pages\welcome.aspx.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\welcome.aspx.designer.cs">
+    <Compile Include="pages\welcome.aspx.designer.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -329,7 +329,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="reports\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
