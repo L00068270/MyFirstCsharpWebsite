@@ -170,6 +170,7 @@
     <Content Include="pages\reports.aspx" />
     <Content Include="pages\welcome.aspx" />
     <Content Include="styles\Bootstrap.scss" />
+    <None Include="Properties\PublishProfiles\PublishMy FirstCSharpWebsite.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

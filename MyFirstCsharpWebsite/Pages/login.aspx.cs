@@ -34,7 +34,7 @@ namespace MyFirstCsharpWebsite.Pages
                     Session["username"] = tbxUsername.Text;
                     //lblMsg.Text = "You Have Successfully Logged In"; 
                     //lblMsg.ForeColor=System.Drawing.Color.Green;
-                    Response.Redirect("~/Pages/members.aspx");
+                    Response.Redirect("~/Pages/reports.aspx");
                     flag = true;
                 }                
             }

@@ -19,11 +19,17 @@
     <form id="form1" runat="server">
         <div class="container-fluid">
 
-            <div class="jumbotron" style="border:1px solid; box-shadow:0px 2px 5px #808080;"><h5>Library Application Login</h5></div>
-            <div class="row">
-                <div class="col-sm-4"></div>
+            <div class="jumbotron" 
+                style="background-position-x: right; background-position: right center; border: 1px solid; box-shadow:0px 2px 5px #808080; background-image: url('/images/Untitled-1.png'); background-repeat: no-repeat; background-color: #FFFFFF; background-size: 18%; background-attachment: inherit; padding-right: 10%;">
+                <h3>Library Application Login</h3>
+                
+            </div>
+            
+            
+            <div class="row" style="margin: 2px; border: 1px solid; box-shadow: 0px 2px 5px #808080";>
+                <div class="col-sm-4"style="padding: 15px; background-color: #FFFFFF"></div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4"style="padding: 15px; background-color: #FFFFFF">
                     <Table class="table-hover table-bordered" style="padding: 3px; background-position: center; width:100%;">
                         <tr>
                             <td><asp:Label ID="lblUsername" runat="server" Font-Names="Calibri" Text="Username"></asp:Label></td>
@@ -43,7 +49,7 @@
                     <br />
                     <br />
                     
-                    <asp:Label ID="lblMsg" runat="server" Font-Names="Calibri" Font-Size="Medium" Text="Label"></asp:Label>
+                    <asp:Label ID="lblMsg" runat="server" Font-Names="Calibri" Font-Size="Medium"></asp:Label>
                         
                         <asp:SqlDataSource
                             ID="SqlDataSource1"
@@ -52,7 +58,7 @@
                             SelectCommand="SELECT [Username], [Password] FROM [LibraryMember]">
                         </asp:SqlDataSource>                    
                 </div>
-                <div class="col-sm-4"></div>
+                <div class="col-sm-4"style="padding: 15px; background-color: #FFFFFF"></div>
             </div>
         </div>        
     </form>

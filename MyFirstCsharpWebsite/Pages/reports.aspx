@@ -17,11 +17,23 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <div class="jumbotron" style="border:1px solid; box-shadow:0px 2px 5px #808080;"><h5>Library Data Reports</h5></div>
-            <div class="row">
-                <div class="col-sm-4"></div>
+            <div class="jumbotron" 
+                style="background-position-x: right; background-position: right center; border: 1px solid; box-shadow:0px 2px 5px #808080; background-image: url('/images/Untitled-1.png'); background-repeat: no-repeat; background-color: #FFFFFF; background-size: 18%; background-attachment: inherit; padding-right: 10%;">
+                <h3>Library Data Reports</h3>
+                
+            </div>
+            
+            <div class="row" style="margin: 2px; box-shadow: 0px 2px 5px #808080";>
+                <div class="col-sm-4" style="border: 1px solid; padding: 15px; background-color: #FFFFFF">
+                    <div>
+                    <asp:Label ID="Label20" runat="server"></asp:Label>    
+                        <p>Welcome to the members-only page. <br />
+                            You have successfully logged in</p>
+                    </div>
+    
+                </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4" style="padding: 15px; background-color: #FFFFFF; border-top-style: solid; border-bottom-style: solid; border-top-width: 1px; border-bottom-width: 1px;">
                     <Table class="table-hover table-bordered" style="padding: 3px; background-position: center; width:100%;">
                         <h4>Report Details</h4>
                         <tr>
@@ -62,7 +74,7 @@
                         
                     </Table>                                                                         
                 </div>
-                <div class="col-sm-4"></div>
+                <div class="col-sm-4" style="border: 1px solid; padding: 15px; background-color: #FFFFFF"></div>
             </div>
         </div>        
     </form>

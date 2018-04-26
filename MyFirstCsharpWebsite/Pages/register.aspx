@@ -15,11 +15,15 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid">
-            <div class="jumbotron" style="border:1px solid; box-shadow:0px 2px 5px #808080;"><h5>Library Application Registration</h5></div>
-            <div class="row">
+            <div class="jumbotron" 
+                style="background-position-x: right; background-position: right center; border: 1px solid; box-shadow:0px 2px 5px #808080; background-image: url('/images/Untitled-1.png'); background-repeat: no-repeat; background-color: #FFFFFF; background-size: 18%; background-attachment: inherit; padding-right: 10%;">
+                <h3>Library Application Regristration</h3>
+                
+            </div>
+            <div class="row" style="margin: 2px; border: 1px solid; box-shadow: 0px 2px 5px #808080; background-color: #FFFFFF";>
                 <div class="col-sm-4"></div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4" style="padding: 15px">
                     <table class="table-hover table-bordered" style="padding: 3px; background-position: center; width:100%;">
                         
                         <tr>
@@ -80,9 +84,9 @@
                             CssClass="btn btn-seccess red" /></td>
                         </tr>
                     </table>
-                    <asp:Label ID="lblSuccessful" runat="server" Text="Label"></asp:Label>
-                    <asp:Label ID="lblReEnter" runat="server" Text="Label"></asp:Label>  
-                    <asp:Label ID="lblUsernameNotAvailable" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblSuccessful" runat="server"></asp:Label>
+                    <asp:Label ID="lblReEnter" runat="server"></asp:Label>  
+                    <asp:Label ID="lblUsernameNotAvailable" runat="server"></asp:Label>
                     <br />
                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                         ConnectionString="<%$ ConnectionStrings:LibraryConnectionString %>" 
